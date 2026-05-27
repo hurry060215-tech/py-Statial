@@ -1,0 +1,24 @@
+# Build
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Upstream R clone
+statial-ref/
+
+# Large fixtures
+data/*.h5ad
+data/*.rds
+data/*.csv
+data/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
